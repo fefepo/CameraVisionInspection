@@ -7,17 +7,18 @@ C# WinForms와 OpenCvSharp(OpenCV)을 활용하여 영상 처리, ROI 기반 결
 
 ## 📷 미리보기
 
+### 수동 Threshold 값을 조절하여 이진화 결과를 확인하는 초기 화면 (ROI 설정 전 상태)
 ![Manual](screenshots/manual_threshold.png) 
 ![Manual](screenshots/manual_threshold_two.png)  
-# 수동 Threshold 값을 조절하여 이진화 결과를 확인하는 초기 화면 (ROI 설정 전 상태)
 
+### ROI 범위 설정 및  NG / OK 판정 결과 표시, 결점 갯수. 탐지 영역크기 표시
 ![Manual](screenshots/roi_selection.png)
 ![Manual](screenshots/roi_selection_ok.png)
-# ROI 범위 설정 및  NG / OK 판정 결과 표시, 결점 갯수. 탐지 영역크기 표시
 
+### 결점 탐지 log 및 탐지 결과 저장(이미지, csv 파일)
 ![Manual](screenshots/inspection_result_files.png)
 ![Manual](screenshots/inspection_log_csv.png)
-# 결점 탐지 log 및 탐지 결과 저장(이미지, csv 파일)
+
 
 ## 🧠 프로젝트 목적
 
