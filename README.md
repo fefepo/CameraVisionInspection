@@ -7,7 +7,10 @@ C# WinForms와 OpenCvSharp(OpenCV)을 활용하여 영상 처리, ROI 기반 결
 
 ## 📷 미리보기
 
-
+![Manual](screenshots/manual_threshold.png)  
+![Manual](screenshots/manual_threshold (2).png)  
+수동 Threshold 값을 조절하여 이진화 결과를 확인하는 초기 화면  
+(ROI 설정 전 상태)
 
 
 ## 🧠 프로젝트 목적
