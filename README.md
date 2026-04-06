@@ -10,6 +10,7 @@ C# WinForms와 OpenCvSharp(OpenCV)을 활용하여 영상 처리, ROI 기반 결
 - OpenCV(OpenCvSharp)를 활용한 영상 처리 알고리즘 개발
 - 검사 결과 저장 및 이력 관리 기능 구현
 
+---
 
 ## 📷 미리보기
 
