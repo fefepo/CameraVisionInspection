@@ -22,6 +22,11 @@ C# WinForms와 OpenCvSharp(OpenCV)을 활용하여 영상 처리, ROI 기반 결
 ![Manual](screenshots/inspection_result_files.png)
 ![Manual](screenshots/inspection_log_csv.png)
 
+## 당당 역할
+C# WinForms 기반 검사 UI 및 전체 시스템 설계·구현
+OpenCV(OpenCvSharp)를 활용한 영상 처리 알고리즘 개발
+검사 결과 저장 및 이력 관리 기능 구현
+
 
 ## 🧠 프로젝트 목적
 
