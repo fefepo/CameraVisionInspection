@@ -5,6 +5,12 @@ C# WinForms와 OpenCvSharp(OpenCV)을 활용하여 영상 처리, ROI 기반 결
 
 ---
 
+## 👨‍💻 담당 역할
+- C# WinForms 기반 검사 UI 및 전체 시스템 설계·구현
+- OpenCV(OpenCvSharp)를 활용한 영상 처리 알고리즘 개발
+- 검사 결과 저장 및 이력 관리 기능 구현
+
+
 ## 📷 미리보기
 
 ### 수동 Threshold 값을 조절하여 이진화 결과를 확인하는 초기 화면 (ROI 설정 전 상태)
@@ -22,11 +28,7 @@ C# WinForms와 OpenCvSharp(OpenCV)을 활용하여 영상 처리, ROI 기반 결
 ![Manual](screenshots/inspection_result_files.png)
 ![Manual](screenshots/inspection_log_csv.png)
 
-## 👨‍💻 담당 역할
-- C# WinForms 기반 검사 UI 및 전체 시스템 설계·구현
-- OpenCV(OpenCvSharp)를 활용한 영상 처리 알고리즘 개발
-- 검사 결과 저장 및 이력 관리 기능 구현
-
+---
 
 ## 🧠 프로젝트 목적
 
