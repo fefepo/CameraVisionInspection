@@ -125,23 +125,20 @@ namespace CameraVisionInspection
             if (_isRunning) return;
             StopCamera();
 
-            string videoPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "sample_inspection.mp4");
-            if (!File.Exists(videoPath))
-            {
-                MessageBox.Show($"영상 파일을 찾을 수 없습니다.\n경로: {videoPath}\n\n" +
-                                "mp4 추가 후 'Copy to Output Directory' = Copy if newer 설정하세요.");
-                return;
-            }
-
-            _cap = new VideoCapture(videoPath);
+            
+            _cap = new VideoCapture(0); // 기본 USB 웹캠
             if (!_cap.IsOpened())
             {
                 _cap.Dispose();
                 _cap = null;
-                MessageBox.Show("영상 파일을 열 수 없습니다.");
+                MessageBox.Show("웹캠을 열 수 없습니다.");
                 return;
             }
-
+            
+            // 웹 캠 해상도 요청
+            _cap.Set(VideoCaptureProperties.FrameWidth, 1280);
+            _cap.Set(VideoCaptureProperties.FrameHeight, 720);
+            
             _cts = new CancellationTokenSource();
             _isRunning = true;
 
@@ -185,7 +182,7 @@ namespace CameraVisionInspection
                 bool ok = _cap != null && _cap.Read(frame);
                 if (!ok || frame.Empty())
                 {
-                    _cap?.Set(VideoCaptureProperties.PosFrames, 0);
+                    
                     Thread.Sleep(10);
                     continue;
                 }
