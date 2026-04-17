@@ -80,14 +80,11 @@ C# WinForms와 OpenCvSharp(OpenCV)을 활용하여 영상 처리, ROI 기반 결
 ## ▶️ 실행 방법
 
 1. 프로젝트 클론 또는 다운로드
-2. `sample_inspection.mp4` 파일 준비
-   - 프로젝트에 직접 추가하거나
-   - 실행 파일 경로(`bin/Debug/...`)에 직접 복사
-3. mp4 파일 속성 설정
-   - `Copy to Output Directory` → `Copy if newer`
-4. Visual Studio에서 실행
-5. **시작** 버튼 클릭
-6. (선택) ROI 드래그 후 결함 검사 진행
+2. USB 웹캠 연결 (또는 노트북 내장 카메라 사용)
+3. Visual Studio에서 실행
+4. **시작** 버튼 클릭
+5. 카메라 영상이 화면에 표시되는지 확인
+6. (선택) ROI 드래그 후 검사 진행
 
 
 ## 📌 향후 확장 아이디어
